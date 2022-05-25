@@ -26,7 +26,7 @@
 
 
 // Source: https://forum.digikey.com/t/debounce-logic-circuit-verilog/13196
-m
+
 `timescale 1 ns / 100 ps
 
 module  DeBounce 
