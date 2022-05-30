@@ -41,6 +41,8 @@ module test;
       initial begin
             // Initialize Inputs
             $dumpvars;
+            #50000 nreset = 1'b0;
+            #50 nreset = 1'b1;
             #100000 $finish;
       end
 
