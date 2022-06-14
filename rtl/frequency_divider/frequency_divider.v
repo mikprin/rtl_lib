@@ -1,6 +1,6 @@
 module freq_divider(
-    input reg clock_in, // input clock on FPGA
-    output wire clock_out // output clock after dividing the input clock by divisor
+    input wire clock_in, // input clock on FPGA
+    output reg clock_out // output clock after dividing the input clock by divisor
     );
 
 reg[9:0] counter=10'd0;
